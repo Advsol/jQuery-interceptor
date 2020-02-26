@@ -1,8 +1,8 @@
 # iMIS iPart jQuery Auth Interceptor
 
-This library will assist in creating simple jQuery based iParts for iMIS.  It will handle authentication for all your HTTP requests to the iMIS API from javascript based iParts.
+This library will assist in creating simple jQuery based iParts for iMIS.  It will handle authentication for all your HTTP requests to the iMIS API from javascript based iParts, automatically adding on the RequestVerificationToken, from the DOM and correctly setting the path for your jQueryXHR requests.
 
-### Getting Started
+## Getting Started
 Create an index.html file and place the following HTML:
 ```html
 <pre id="result">
@@ -26,4 +26,22 @@ jQuery( document ).ready(function() {
 ```
 or grab the demo file from [here](https://github.com/Advsol/jQuery-interceptor/blob/master/demo/index.html)
 
-Save this in a file called index.html
+Save this in a file called index.html and upload it to your cloud storage/host.  For this demo we have added it to a to the demo folder in the repo.
+
+Our sample ipart is located here:
+[https://raw.githubusercontent.com/Advsol/jQuery-interceptor/master/demo/index.html](https://raw.githubusercontent.com/Advsol/jQuery-interceptor/master/demo/index.html)
+
+### Configuring the iPart in iMIS
+
+ - Log into imis as a Staff user
+ - Navigate to: **RiSE -> Maintenance -> Content types**
+ - Click **New** and select **Content-Type**
+ - Select **Client-based (preferred)**
+ - Fill out the Name Description and the first URL field (use the URL to your iPart or the one above)
+![content type screen shot](https://raw.githubusercontent.com/Advsol/jQuery-interceptor/master/images/content-type.PNG)
+	 - 
+ - Save the iPart/Content Type
+
+### Testing your iPart
+
+Create a piece of Content, in RiSE
