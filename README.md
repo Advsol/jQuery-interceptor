@@ -45,4 +45,13 @@ Our sample ipart is located here:
 
 ### Testing your iPart
 
-Create a piece of Content, in RiSE
+Create a content item in RiSE and add your iPart to that content.
+
+ - As a staff user, navigate to: **RiSE -> Page Builder -> Manage content**
+ - Click **New** and select **Website Content**
+ - Fill out the required fields and make sure to check Create navigation on publish
+	 - Select the location in the Navigation menu for your new content
+	 - Click **Save & Publish**
+	 
+After a short delay your  your iPart navigation item and content should be published and on navigating to your new content, you should see an alert followed by the JSON returned by the API.
+![sample ipart](https://raw.githubusercontent.com/Advsol/jQuery-interceptor/master/images/ipart-result.PNG =550x)
