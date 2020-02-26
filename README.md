@@ -54,5 +54,5 @@ Create a piece of Content, in RiSE and add your iPArt to that content.
 	 - Click **Save & Publish**
 	 
 After a short delay your  your iPart navigation item and content should be published and on navigating to your new content, you should see an alert followed by the JSON returned by the API.
-![sample ipart](https://raw.githubusercontent.com/Advsol/jQuery-interceptor/master/images/ipart-result.PNG =551x)
+![sample ipart](https://raw.githubusercontent.com/Advsol/jQuery-interceptor/master/images/ipart-result.PNG)
 
