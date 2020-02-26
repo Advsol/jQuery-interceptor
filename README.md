@@ -37,7 +37,7 @@ Our sample ipart is located here:
  - Navigate to: **RiSE -> Maintenance -> Content types**
  - Click **New** and select **Content-Type**
  - Select **Client-based (preferred)**
- - Complete the required fields (Name, Description and the first URL field). Use the URL to your iPart or the one example.
+ - Complete the required fields (Name, Description and the first URL field). Use the URL to your iPart or the link to the sample iPart in the link above.
  
 ![content type screen shot](https://raw.githubusercontent.com/Advsol/jQuery-interceptor/master/images/content-type.PNG)
 	 - 
